@@ -14,42 +14,75 @@
   </head>
   <body>
     <div class="container">
-        <header class="row altura1">
-            <div class="col-12">
-                <h2>soy header</h2>
+        <!--ACA COLOCO CODIGO DE SLIDER-->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-        </header>
-        <nav class="row altura2">
-            <div class="col-12">
-                <a href="/quiensoy.html">
-                    <h2>Soy nav</h2>
-                </a>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/slide1.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide2.jpeg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/slide3.webp" class="d-block w-100" alt="...">
+              </div>
             </div>
-        </nav>
-        <div class="row altura3">
-            <section class="col-8">
-                <h2>soy section</h2>
-                <article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean mauris tellus, imperdiet ac pretium sit amet, tincidunt a nisi. Fusce sed commodo mauris. Suspendisse sagittis purus ac odio facilisis, nec pellentesque nisi eleifend. Fusce elementum nunc eget venenatis feugiat. Sed eget urna diam. Integer turpis lacus, rutrum in posuere condimentum, venenatis quis ex. Maecenas ac ultricies felis, vitae viverra felis. Sed rutrum bibendum nunc, nec consectetur nulla commodo in. Vivamus scelerisque massa mattis felis elementum, quis efficitur purus aliquam. Morbi aliquet nibh non sapien pulvinar, sed imperdiet neque pulvinar. Aliquam rutrum lorem dapibus, euismod dolor eu, sagittis magna. Sed ac sagittis odio, sed ullamcorper dolor. Vestibulum nec congue ipsum. Morbi venenatis imperdiet elit, eget viverra risus rutrum ac. Quisque lectus orci, dapibus eu convallis at, tempus ac felis.
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!--ACA FINZALIZA CODIGO DE SLIDER-->
 
-                        Integer consequat, metus ac mattis euismod, magna nulla fringilla sem, ac hendrerit justo lacus ac sapien. Nunc quis quam purus. Morbi volutpat accumsan facilisis. Sed in congue nisl. Suspendisse scelerisque consectetur augue non laoreet. Quisque leo nisi, hendrerit vitae molestie sit amet, aliquet vitae libero. Sed ultrices ullamcorper magna, eget facilisis quam aliquam et. Nam in mi et lacus viverra egestas id vulputate risus. Phasellus ut felis molestie, vestibulum justo vitae, efficitur eros. Sed sapien enim, laoreet ut risus eget, molestie consectetur est.
-                        
-                        Etiam semper, leo fringilla auctor sagittis, justo nulla dictum erat, ut semper sapien lacus quis felis. Morbi in tincidunt sapien. Aenean ex purus, fermentum venenatis dui ac, imperdiet aliquam est. Suspendisse nec velit viverra, placerat lorem id, aliquet nibh. Vivamus porta lacus orci, eget ullamcorper erat feugiat ut. Quisque in velit vitae ante efficitur tincidunt. Phasellus bibendum laoreet molestie. Donec ac justo eu purus vehicula tristique. Suspendisse dapibus porttitor velit at consequat. Maecenas pulvinar dui non accumsan condimentum. Duis dignissim, tellus non condimentum convallis, arcu neque lobortis felis, cursus eleifend dolor tellus eu massa.
-                        
-                        Ut auctor tortor commodo, lacinia odio at, vestibulum dolor. In ut nisl et lacus posuere tristique. Pellentesque a dolor purus. Nullam vulputate at dolor quis imperdiet. Sed fermentum turpis ligula, nec iaculis massa facilisis ut. Sed risus justo, pulvinar non lacus consequat, faucibus pellentesque enim. Fusce nec mauris ac tellus eleifend suscipit. Suspendisse iaculis hendrerit euismod. Suspendisse potenti. Aliquam id metus libero.
-                        
-                        Nulla feugiat est leo, non ornare dolor semper sed. Proin id mauris erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Etiam cursus sem et nisl egestas, ornare sodales leo sagittis. Pellentesque volutpat gravida justo nec mollis. Fusce porta vitae dui in bibendum. Vivamus quis massa leo. Cras nec quam eget tellus suscipit maximus. Praesent ligula ante, maximus sed cursus sit amet, sagittis id tortor. Etiam sit amet dui vitae lorem mollis tincidunt. Donec sed sodales lacus. Quisque sed leo quis risus lacinia sollicitudin sit amet quis eros. Nam dapibus turpis id quam iaculis, in lacinia purus ullamcorper. Sed condimentum justo quis mauris pellentesque consequat.</p>
-                </article>
+
+        <!--ACA COLOCO NAVBAR-->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Navbar</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" href="#">Features</a>
+                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link disabled">Disabled</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        <!--ACA TERMINO NAVBAR-->
+
+        <div class="row altura3">
+            <section class="col-12 col-sm-8">
+                <h2>AVATAR Y EL VIAJE DEL AGUA</h2>
+                <section>
+                    <p>Avatar: The Way of Water (titulada Avatar: el sentido del agua en España y Avatar: el camino del agua en Hispanoamérica) es una película estadounidense perteneciente al género del cine épico, ciencia ficción y animación dirigida, producida y coescrita por James Cameron. Es la primera de las cuatro secuelas planificadas de su película Avatar. Cameron está produciendo la película con Jon Landau, y Josh Friedman, originalmente anunciado como coguionista; más tarde se declaró que Cameron, Friedman, Shane Salerno, Rick Jaffa y Amanda Silver tomaran parte en el proceso de escritura de todas las secuelas antes de que se les atribuyeran guiones separados, lo que hace que los eventuales créditos de guionista no estén claros.6​7​8​9​10​ Entre los miembros del elenco, se ha confirmado el regreso de Sam Worthington, Zoe Saldaña, Stephen Lang, Sigourney Weaver, Giovanni Ribisi, Joel David Moore, Dileep Rao, CCH Pounder y Matt Gerald.</p>
+                </section>
             </section>
-            <aside class="col-4">
+            <aside class="col-12 col-sm-4">
                 <img src="images/astronaut.png" width="100%">
             </aside>
         </div>
-        <footer class="row altura4">
-            <div class="col-12">
-                <h2>Soy footer</h2>
+        
+        
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <p>Avatar, James Cameron Todos los derechos reservados 2023</p>
             </div>
-        </footer>
+        </div>
     </div>
 
 

@@ -3,33 +3,20 @@
 }
 
 body {
-    background-color: beige;
+    background-color: black;
     margin: 0;
     padding: 0;
+    color: azure;
 }
 
 header {
     background-color: aqua;
 }
 
-nav {
-    background-color: aquamarine;
-}
 
-section {
-    background-color: azure;
-}
-
-article {
+section .dos {
     background-color: chartreuse;
-}
-
-aside {
-    background-color: khaki;
-}
-
-footer {
-    background-color: yellow;
+    height: 70%;
 }
 
 .altura1 {
@@ -46,4 +33,8 @@ footer {
 
 .altura4 {
     height: 10vh;
+}
+
+h2 {
+    font-size: 5em;
 }
